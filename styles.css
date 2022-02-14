@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200,300;400;600;700;&display=swap");
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  -webkit-transition: .2s, linear;
+  transition: .2s, linear;
+}
+
+header {
+  background: #FFFFFF;
+}
+
+.contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.contain .navbar-brand i {
+  font-size: 3rem;
+  margin-left: .5rem;
+  color: #192a56;
+  cursor: pointer;
+  width: 3.5rem;
+  height: 3.5rem;
+  text-align: center;
+}
+
+.contain .home-search {
+  width: 500px;
+}
+
+.contain .home-search input:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: 0;
+  color: #4E8561;
+}
+
+.contain .btn {
+  background: #4E8561;
+  color: #FFFFFF;
+}
+
+.contain .right {
+  border-left: 3px solid #4E8561;
+  padding-left: 5px;
+  height: 55px;
+  font-size: 0.75rem;
+}
+
+.contain span {
+  color: #4E8561;
+}
+
+.contain .icons a {
+  font-size: 1.7rem;
+  margin-left: .5rem;
+  color: #000000;
+  cursor: pointer;
+  width: 4.5rem;
+  height: 4.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contain .icons .badge:after {
+  content: attr(value);
+  font-size: 1rem;
+  color: #fff;
+  background: #4E8561;
+  border-radius: 50%;
+  padding: 0 5px;
+  position: relative;
+  left: -8px;
+  top: -12px;
+  opacity: 0.9;
+}
+
+.form-control:focus,
+input.form-control:focus,
+input[type=search]:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: 0;
+}
+
+nav {
+  margin: 0;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  margin-right: 30px;
+  padding-left: 15px;
+  color: #000000;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover {
+  color: #4E8561;
+}
+
+nav .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+nav .dropdown-menu .dropdown-item {
+  font-size: small;
+}
+
+nav #navbarNavDropdown .navbar-nav li.active > a {
+  color: #4E8561;
+  text-decoration: underline;
+}
+
+@media (max-width: 575.98px) {
+  .contain .home-search {
+    width: 70%;
+  }
+  .contain .right {
+    display: none;
+  }
+  .contain .icons a {
+    display: none;
+  }
+  .navbar .navbar-toggler .navbar-toggler-icon {
+    position: absolute;
+    top: -40px;
+    right: 2px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .contain .home-search {
+    width: 70%;
+  }
+  .contain .right {
+    display: none;
+  }
+  .contain .icons a {
+    display: none;
+  }
+  .navbar .navbar-toggler .navbar-toggler-icon {
+    position: absolute;
+    top: -40px;
+    right: 2px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .contain .home-search {
+    width: 70%;
+  }
+  .contain .right {
+    display: none;
+  }
+  .contain .icons a {
+    display: none;
+  }
+  .navbar .navbar-toggler .navbar-toggler-icon {
+    position: absolute;
+    top: -40px;
+    right: 2px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
